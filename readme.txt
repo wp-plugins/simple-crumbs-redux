@@ -1,9 +1,12 @@
 === Simple Crumbs Redux ===
 Contributors: Doug Sparling
+Donate link: http://www.dougsparling.org/wordpress-plugins/simple-crumbs-redux/
 Tags: breadcrumbs, navigation
 Requires at least: 2.7
 Tested up to: 3.6
-Stable tag: 1.0.0
+Stable tag: 1.0.1
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 
 Summary: Generates navigation bread crumbs in WordPress. Requires permalinks.
@@ -34,18 +37,6 @@ Author URI: http://www.dougsparling.org
 1. Home > Tag > Tag Name
 
 
-== Changelog ==
-
-
-Version: 1.0.0
-* Fixed 'PHP Fatal error: Call-time pass-by-reference has been removed' with PHP 5.4 and greater.
-* Converted plugin from functional style to Object Oriented.
-* Repaced sc_unpack_query_string function with WordPress core function wp_parse_args().
-
-
-Released under GNU v2 June 1991
-
-
 == Installation ==
 
 A. Configuration Options
@@ -62,3 +53,36 @@ B. Installation
 * from php: `<?php echo do_shortcode('[simple_crumbs root="Home" /]') ?>`
 * from html with document root: `[simple_crumbs root="Some Root" /]`
 * from html without document root: `[simple_crumbs /]`
+
+
+== Frequently Asked Questions ==
+
+= Why another breadcrumbs plugin? =
+
+A client of mine was using the Simple Crumbs and it wouldn't work once PHP was updated on his server. As Simple Crumbs hadn't been updated since 2009 and I needed to get my client going, I just created Simple Crumbs Redux and got him going. I made a few minor improvements over the original plugin and will work as a drop in replacement. Whether I add any other features depends on my needs and if I get any requests from users.
+
+
+== Screenshots ==
+
+1. No UI. No screenshots available.
+
+
+== Changelog ==
+
+= 1.0.0 =
+
+* Initial Release.
+* Fixed 'PHP Fatal error: Call-time pass-by-reference has been removed' with PHP 5.4 and greater.
+* Converted plugin from functional style to Object Oriented.
+* Repaced sc_unpack_query_string function with WordPress core function wp_parse_args().
+
+= 1.0.1 =
+
+* Upated readme to pass validation.
+
+
+== Upgrade Notice ==
+
+= 1.0.1 =
+
+Updated readme to pass validation.
