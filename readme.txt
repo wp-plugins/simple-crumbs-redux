@@ -1,10 +1,10 @@
 === Simple Crumbs Redux ===
-Contributors: Doug Sparling
+Contributors: scriptrunner
 Donate link: http://www.dougsparling.org/wordpress-plugins/simple-crumbs-redux/
 Tags: breadcrumbs, navigation
 Requires at least: 2.7
-Tested up to: 3.6
-Stable tag: 1.0.1
+Tested up to: 3.6.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -86,3 +86,8 @@ A client of mine was using the Simple Crumbs and it wouldn't work once PHP was u
 = 1.0.1 =
 
 Updated readme to pass validation.
+
+
+= 1.0.2 =
+
+Changed contributers name to my WordPress.org username.
