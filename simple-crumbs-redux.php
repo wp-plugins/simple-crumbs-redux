@@ -4,7 +4,7 @@ Plugin Name: Simple Crumbs Redux
 Plugin URI: http://plugins.svn.wordpress.org/simple-crumbs-redux
 Description: Simple Crumbs  Redux- Generates a breadcrumb trail for pages and blog entries. Requires use of permalinks and php > 4.1.0, tested up to WP 3.6.
 Author: Doug Sparling
-Version: 1.0.1
+Version: 1.0.2
 Author URI: http://www.dougsparling.org
 Note: link/crumb information from $query_string
 Note: page/post information from $post
